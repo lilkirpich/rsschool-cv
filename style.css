@@ -1,0 +1,47 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+article {
+  flex: 1 0 auto;
+  text-align: left;
+  font-family: Helvetica, sans-serif;
+  word-wrap: break-word;
+}
+
+code {
+  display: block;
+  padding: 1em 1.5em;
+  margin-bottom: 1.6em;
+  max-width: 100%;
+  border: 3px solid #ddd;
+  border-left: 5px solid #f36d33;
+  font-family: monospace;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #666;
+  background: #f5f2f0;
+  overflow: auto;
+}
+
+footer {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: row;
+  background: #aa9380;
+}
+
+.photo {
+  height: 15%;
+  width: 15%;
+}
+
+#logo {
+  max-width: 15%;
+}
